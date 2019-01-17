@@ -1,0 +1,7 @@
+#position{
+    background-color: red;
+    width: 200px;
+    height: 400px;
+    /* position: absolute */
+    float: right
+}

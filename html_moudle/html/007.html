@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>control</title>
+</head>
+<body>
+
+
+
+    <form>
+        <lable id="username">
+            <input id="txt" maxlength="6" placeholder="请输入用户名" autocomplete="">
+        </lable>
+
+        <input type="button" value="设置默认值" onclick="setDefaultValue()">
+    </form>
+
+    <script>
+        function setDefaultValue() {
+            var lable = document.getElementById("username")
+            var username = lable.control;
+            username.value = "111111";
+        }
+    </script>
+</body>
+</html>

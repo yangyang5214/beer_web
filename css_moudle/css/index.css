@@ -1,0 +1,44 @@
+h1,h2,a{
+    color:red
+}
+
+body {
+    color:blue;
+    background-color: black;
+}
+
+.p_class{
+    color:red
+}
+
+[title] {
+    color: aquamarine;
+}
+
+
+h6 {
+    color: yellow;
+    text-align: left;
+    text-indent: 2em;
+}
+
+
+a:link{
+    color: #FF0000
+}
+
+a:visited{
+    color: #00FF00
+}
+
+a:active{
+
+}
+
+a:hover{
+
+}
+
+ul li {
+    list-style-image: url('../img/吐司面包.png')
+}
